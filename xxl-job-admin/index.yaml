@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  xxl-job-admin:
+  - apiVersion: v2
+    appVersion: 2.3.1
+    created: "2022-05-29T22:00:45.433853+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 2d17b94c2de2d499091e48d53bd74d212a66c6d1c0025bddc0d5708cf3d9c9d5
+    name: xxl-job-admin
+    type: application
+    urls:
+    - https://juaby.github.io/helm-chart/xxl-job-admin/0.1.0.tgz
+    version: 0.1.0
+generated: "2022-05-29T22:00:45.432461+08:00"
