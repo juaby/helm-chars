@@ -42,7 +42,7 @@ spec:
               protocol: TCP
           env:
             - name: PARAMS
-              value: "--spring.datasource.url=jdbc:mysql://mysql:3306/xxl_job?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai --spring.datasource.username=root --spring.datasource.password=2AtZsyzoH4"
+              value: {{ .Values.appConfig }}
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
       {{- with .Values.nodeSelector }}
