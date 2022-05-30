@@ -9,6 +9,6 @@ entries:
     name: xxl-job-admin
     type: application
     urls:
-    - https://juaby.github.io/helm-chart/xxl-job-admin/0.1.0.tgz
+    - https://juaby.github.io/helm-chart/xxl-job-admin/xxl-job-admin.tgz
     version: 0.1.0
 generated: "2022-05-29T22:00:45.432461+08:00"
